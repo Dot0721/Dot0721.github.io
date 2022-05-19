@@ -1,0 +1,18 @@
+body {background-attachment: fixed;
+  background-image: url("https://www.crazybackground.com/wp-content/uploads/2019/12/vector-white-modern-background.jpg");
+  background-size: cover;
+}
+
+.box {
+    float: left;
+    width: 500px;
+    height: 330px;
+    margin-right: 30px;
+}
+
+.wrap {
+    display: flex;
+  }
+  .wrap > div {
+    flex: 1;
+}
